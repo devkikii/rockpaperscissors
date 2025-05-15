@@ -1,8 +1,8 @@
-/*Make a Tracker of both computer and user scores*/
+// Make a Tracker of both computer and user scores
 let humanScore = 0;
 let computerScore = 0;
 
-/*Make Computer choose betweeen 3 choices(rock, paper, sissors)*/
+// Make Computer choose betweeen 3 choices(rock, paper, sissors)
 function getComputerChoice () {
   const choices = ["rock", "paper", "scissors"];
   const randomIndex = Math.floor(Math.random() * choices.length);
@@ -10,7 +10,7 @@ function getComputerChoice () {
 }
 
 
-/*Make a Prompt where User types rock, paper or sissors*/
+// Make a Prompt where User types rock, paper or sissors
 function getHumanChoice () {
   let choice = prompt("Please type rock, paper or scissors").toLowerCase();
   if (choice === "rock" || choice === "paper" || choice === "scissors") {
@@ -21,7 +21,7 @@ function getHumanChoice () {
   }
 }
 
-/*Make a function called playRound that play one round, incraments the winner by 1 and starts new round*/
+// Make a function called playRound that play one round, incraments the winner by 1 and starts new round
 function playRound(humanChoice, computerChoice) {
   if (humanChoice === "rock" && computerChoice === "scissors") {
     humanScore++;
@@ -47,7 +47,7 @@ function playRound(humanChoice, computerChoice) {
 }
 
 
-/*Make a function called playGame that calls playRound 5 times before declaring a winner*/
+// Make a function called playGame that calls playRound 5 times before declaring a winner
 function playGame() {
   for (let i = 0; i < 5; i++) {
     let humanChoice = getHumanChoice();
@@ -70,7 +70,7 @@ function playGame() {
 // Start the game
 playGame();
 
-/*Final Scores*/
+// Final Scores
 console.log("Final Scores:");
 console.log(`Human: ${humanScore}`);
 console.log(`Computer: ${computerScore}`);
