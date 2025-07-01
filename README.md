@@ -4,17 +4,17 @@ A simple Rock-Paper-Scissors game built using JavaScript. The player plays again
 
 ## Features
 
-- Tracks human and computer scores.
-- Validates user input.
-- Plays 5 rounds and declares a winner.
-- Console-based interface.
+- ~~Tracks human and computer scores.~~
+- ~~Validates user input.~~
+- ~~Plays 5 rounds and declares a winner.~~
+- ~~Console-based interface.~~
 
 ## How to Play
 
 1. Open the `index.html` file in a browser (make sure the JS is linked if in a separate file).
-2. Follow the prompt asking you to type `rock`, `paper`, or `scissors`.
-3. Repeat for 5 rounds.
-4. After 5 rounds, the final scores will be shown in the console.
+2. ~~Follow the prompt asking you to type `rock`, `paper`, or `scissors`.~~
+3. ~~Repeat for 5 rounds.~~
+4. ~~After 5 rounds, the final scores will be shown in the console.~~
 
 ## Technologies Used
 
@@ -23,10 +23,10 @@ A simple Rock-Paper-Scissors game built using JavaScript. The player plays again
 
 ## Future Improvements
 
-- Add UI instead of using `prompt()` and `console.log()`.
+- ~~Add UI instead of using `prompt()` and `console.log()`.~~
 - Allow users to choose the number of rounds.
 - Add animations or sound effects.
 
 ## Author
 
-[Kiki27011]
+[devkikii]
